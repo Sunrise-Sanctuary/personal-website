@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import App from "../App.vue";
+import Home from "../organisms/Home.vue";
 import Guestbook from "../organisms/Guestbook.vue";
 
 Vue.use(Router);
@@ -9,7 +9,7 @@ const routes = [
   {
     path: "/",
     name: "App",
-    component: App,
+    component: Home,
   },
   {
     path: "/unit-1",

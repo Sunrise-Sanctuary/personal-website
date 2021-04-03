@@ -1,7 +1,6 @@
 <template>
   <div id="home">
-    <NavBar/>
-    <LocationHero/>
+    Soon to be the home of the great show on turf
   </div>
 </template>
 
