@@ -1,20 +1,21 @@
 <template>
 <div>
   <b-navbar  type="dark" variant="dark" fixed='top' toggleable="lg">
-    <b-navbar-brand style="font-family: 'Comic Sans MS', cursive, sans-serif;" href="#">A.M.</b-navbar-brand>
+    <b-navbar-brand style="font-family: 'Comic Sans MS', cursive, sans-serif;" href="#">S.S.</b-navbar-brand>
     
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#profile">Profile</b-nav-item>
-        <b-nav-item href="#explore">Explore</b-nav-item>
-        <b-nav-item href="#timeline">Timeline</b-nav-item>
+        <b-nav-item href="#rules">Rules</b-nav-item>
+        <b-nav-item href="#suggestions">Suggestions</b-nav-item>
+        <b-nav-item href="#share">Share</b-nav-item>
+        <b-nav-item href="#share">Contact Info</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
     </b-collapse>
           <b-navbar-nav class="ml-auto">
         <b-nav-item href="#" disabled class="bitcoinPrice">
-          <b-img v-bind="this.mainProps" :src="require('../assets/btcLogo.svg')" rounded="circle" alt="Circle image"></b-img>
+          <!-- <b-img v-bind="this.mainProps" :src="require('../assets/btcLogo.svg')" rounded="circle" alt="Circle image"></b-img> -->
           Price: ${{this.btcPrice}} </b-nav-item>
       </b-navbar-nav>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

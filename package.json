@@ -1,5 +1,5 @@
 {
-  "name": "MyWebsite",
+  "name": "thesunrisesanctuary.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,20 +9,12 @@
     "start": "vue-cli-service serve --open"
   },
   "dependencies": {
-    "@growthbunker/vuetimeline": "^0.1.17",
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.18.1",
-    "core-js": "^3.6.5",
-    "mdbvue": "6.7.1",
-    "prerender-spa-plugin": "^3.4.0",
-    "vue": "^2.6.11",
-    "vue-loader-v16": "^16.0.0-beta.5.4",
+    "vue": "^2.6.12",
     "vue-meta": "^2.2.2",
-    "vue-star-rating": "^1.7.0",
-    "vue-stars": "^1.2.2",
-    "vue-world-map": "^0.1.1",
-    "world-map-vue": "^0.2.1"
+    "vue-template-compiler": "^2.6.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
@@ -31,11 +23,7 @@
     "@vue/eslint-config-airbnb": "^5.0.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-beta.3",
-    "node-sass": "^5.0.0",
-    "sass-loader": "^10.0.5",
-    "vue-cli-plugin-mdb": "~2.1.0",
-    "vue-template-compiler": "^2.6.12"
+    "eslint-plugin-vue": "^7.0.0-beta.3"
   },
   "eslintConfig": {
     "root": true,

@@ -4,7 +4,6 @@
                  <b-button  v-on:click="handleClick()" variant="light" pill>Intersted in your own site? Click to find out more</b-button>
         </div>
         <div v-else>
-        <CardFormat header="" :quote="this.displayMessage" author="Austin">
         <div v-if="isFormDisplayed">
             <form  name="contact-form" method="POST"
                 data-netlify="true" data-netlify-honeypot="bot-field" @submit.prevent="handleSubmit">
@@ -31,20 +30,16 @@
                 </div>
             </form>
         </div>
-        </CardFormat>            
         </div>
 
     </div>
 </template>
 <script>
-import CardFormat from './CardFormat.vue';
     import axios from "axios"
 
     export default {
         name: 'EmailListForm',
             components: {
-      CardFormat,
-      // WorldMap,
     },
       
         data() {

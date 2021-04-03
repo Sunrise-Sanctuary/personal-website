@@ -1,8 +1,8 @@
 <template>
 <div class="header-container">
   <!-- <b-navbar-brand style="font-family: 'Comic Sans MS', cursive, sans-serif;" href="#">Welcome...</b-navbar-brand> -->
-  <h1 class="display-4 test">Welcome...</h1>
-  <p class="lead">People of Action are Favored by the Goddess of Good Luck</p>
+  <h1 class="display-4 test">Welcome the Sunrise Sanctuary</h1>
+  <p class="lead">We hope you enjoy your stay!</p>
   <hr class="my-4">
   <p class="lead">
     <b-button variant="secondary" href="#profile">Explore</b-button>
