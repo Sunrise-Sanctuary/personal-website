@@ -5,7 +5,6 @@
   <p class="lead">We hope you enjoy your stay!</p>
   <hr class="my-4">
   <p class="lead">
-    <b-button variant="secondary" href="#profile">Explore</b-button>
   </p>
 </div>
 </template>

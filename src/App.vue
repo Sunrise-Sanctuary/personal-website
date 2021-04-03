@@ -5,21 +5,18 @@
      class="hero">
     <NavBar/>
     <WebsiteHeader/>
-    <EmailListForm/>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue';
 import WebsiteHeader from './components/WebsiteHeader.vue';
-import EmailListForm from './components/EmailListForm.vue';
 
 export default {
   name: 'App',
   components: {
     NavBar,
     WebsiteHeader,
-    EmailListForm,
   },
     data() {
       return {};
