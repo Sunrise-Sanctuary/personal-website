@@ -27,6 +27,11 @@ const routes = [
     component: Guestbook,
   },
   {
+    path: "/guidebook",
+    name: "Guidebook",
+    component: Guestbook,
+  },
+  {
     path: '*',
     redirect: '/'
   }
