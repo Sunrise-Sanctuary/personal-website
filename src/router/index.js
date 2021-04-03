@@ -26,10 +26,16 @@ const routes = [
     name: "Unit-3",
     component: Guestbook,
   },
+  {
+    path: '*',
+    redirect: '/'
+  }
 ]
 
 const router = new Router({
-  routes
+  routes,
+  mode: 'history'
+
 });
 
 export default router;

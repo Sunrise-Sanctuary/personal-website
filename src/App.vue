@@ -1,31 +1,17 @@
 <template>
-
-<div id="app"
-:style="{ backgroundImage: 'url(' + 'placecage/com/1000/1000' + ')'}" 
-     class="hero">
-    <NavBar/>
-    <WebsiteHeader/>
+  <div id="app" class="hero">
+    <router-view :key="$route.fullPath"/>
   </div>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue';
-import WebsiteHeader from './components/WebsiteHeader.vue';
 
 export default {
   name: 'App',
   components: {
-    NavBar,
-    WebsiteHeader,
   },
-    data() {
-      return {};
-    },
-
-  metaInfo() {
-    return {
-      title: 'Welcome to the Sunrise Sanctuary!'
-    };
+  data() {
+    return {};
   },
 };
 </script>
@@ -59,6 +45,7 @@ html, body {
     font-family: 'Comic Sans MS', cursive, sans-serif !important;
     /* font-family: 'Open Sans', sans-serif !important; */
     height: 100%;
+    scroll-behavior: smooth;
 }
 .content {
   padding-top:40px;
@@ -80,9 +67,4 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
     margin-bottom: 20px;
 }
 
-
-html, body {
-    color: #434242;
-    font-family: 'Comic Sans MS', cursive, sans-serif !important;
-}
 </style>
