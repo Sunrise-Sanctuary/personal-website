@@ -5,14 +5,9 @@
 </template>
 
 <script>
-  import NavBar from '../components/NavBar.vue';
-  import LocationHero from '../atoms/LocationHero';
   export default {
     name: 'Home',
-    components: {
-      NavBar,
-      LocationHero,
-    },
+    components: {},
     data() {
       return {};
     },
