@@ -34,13 +34,12 @@ const routes = [
   {
     path: '*',
     redirect: '/'
-  }
+  },
 ]
 
 const router = new Router({
   routes,
   mode: 'history'
-
 });
 
 export default router;
