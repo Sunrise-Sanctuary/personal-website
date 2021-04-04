@@ -1,5 +1,6 @@
 // import 'bootstrap-css-only/css/bootstrap.min.css'
 import Vue from 'vue';
+import router from './router/index';
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import App from './App.vue';
@@ -26,4 +27,5 @@ Vue.use(EmbedPlugin)
 // Vue.use(Meta); 
 new Vue({
   render: h => h(App),
+  router
 }).$mount('#app')

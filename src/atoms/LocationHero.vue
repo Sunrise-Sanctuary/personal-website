@@ -1,6 +1,6 @@
 <template>
   <div class="background-image location-hero" style="background-image:url('https://global-uploads.webflow.com/5ab30f883c0d5f3ebc626470/5d8cdd47e4a31c73c4d4bd61_Outsite%20Venice%20Beach%20Glyndon%20hero%20desktop.jpg')">
-<div class="hero-text-container">
+  <div class="hero-text-container">
 
     <b-row>
     <b-col cols="8">
@@ -107,6 +107,5 @@ export default {
     text-transform: none;
     text-shadow: 0 2px 40px rgb(80 80 82 / 20%), 2px 0 40px rgb(80 80 82 / 20%);
 }
-
 
 </style>
