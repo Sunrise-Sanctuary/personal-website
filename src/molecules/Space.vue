@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <h1>A one-of-a-kind Key West style home right by the intercoastal</h1>
-    <h4>Welcome to our little slice of paradise by the ocean - We're happy to be hosting you in what we think is one of the most exciting and</h4>
+  <div class="space-section">
+    <h1 class="guestbook-header">Our pink dream house, right by the ocean and nightlife.</h1>
     <div class="features">
       <p class="space-feature">Private 1-Bedroom Apartment</p>
       <p class="black-point faded">•</p>
@@ -17,7 +16,8 @@ export default {
 </script>
 
 <style>
-  .feaures {
+  .features {
+    display: flex;
     padding-top: 15px;
     padding-right: 0px;
     padding-bottom: 25px;
@@ -41,5 +41,9 @@ export default {
     color: #222;
     line-height: 16px;
     margin: auto 0;
+  }
+
+  .space-section {
+    margin-top: 25px;
   }
 </style>

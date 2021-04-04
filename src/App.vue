@@ -1,5 +1,5 @@
 <template>
-  <b-container id="app" class="hero">
+  <b-container id="app" class="hero" fluid>
     <router-view :key="$route.fullPath"/>
   </b-container>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="background-image location-hero" style="background-image:url('https://global-uploads.webflow.com/5ab30f883c0d5f3ebc626470/5d8cdd47e4a31c73c4d4bd61_Outsite%20Venice%20Beach%20Glyndon%20hero%20desktop.jpg')">
+  <div class="hero-background location-hero">
   <div class="hero-text-container">
 
     <b-row>
@@ -38,8 +38,8 @@ export default {
 
 <style>
 
-.background-image{
-
+.hero-background{
+  background-image: url('~@/assets/backyard.jpg');
   min-height: 600px;
   position: relative;
 

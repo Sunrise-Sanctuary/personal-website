@@ -36,7 +36,8 @@ export default {
     padding-bottom: 0px;
     text-align: center;
     .nav-item {
-      padding: 0 15px;
+      padding: 0 25px;
+      font-size: 22px;
     }
   }
 </style>

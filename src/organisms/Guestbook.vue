@@ -11,25 +11,15 @@
 
 <template>
   <div class="guestbook">
-    <h1>Welcome to the Sunrise Sanctuary</h1>
-        <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-        <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
     <div class="guestbook-content">
-      <page-navigation/>
-      <space id="space"/>
-      <location id="location"/>
-      <recommendations id="recommendations"/>
-      <rules id="rules"/>
+      <location-hero/>
+      <b-container>
+        <page-navigation/>
+        <space id="space"/>
+        <location id="location"/>
+        <recommendations id="recommendations"/>
+        <rules id="rules"/>
+      </b-container>
     </div>
   </div>
 </template>
@@ -40,17 +30,14 @@ import PageNavigation from '../atoms/PageNavigation.vue';
 import Recommendations from '../molecules/Recommendations.vue';
 import Rules from '../molecules/Rules.vue';
 import Space from '../molecules/Space.vue';
+import LocationHero from '../atoms/LocationHero.vue';
 
 export default {
-  components: { PageNavigation, Space, Location, Recommendations, Rules },
+  components: { PageNavigation, Space, Location, Recommendations, Rules, LocationHero },
 }
 </script>
 
 <style>
-.guestbook {
-  margin-top: 65px;
-}
-
 .guestbook-content {
   position: relative
 }
@@ -75,16 +62,21 @@ export default {
 }
 
 .guestbook-header {
-  margin-top: 15px;
+  margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 0px;
+  margin-left: 0px;
   font-family: 'IBM Plex Sans', sans-serif;
   color: #222;
-  font-size: 22px;
-  line-height: 32px;
-  font-weight: 500;
-  text-align: left;
-  letter-spacing: -0.5px;
-  text-transform: none;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.guestbook-subheader {
+  font-family: Roboto, sans-serif;
+  color: #222;
+  font-size: 16px;
+  line-height: 20px;
 }
 </style>
