@@ -11,7 +11,7 @@
 
 <template>
   <div class="guestbook">
-    <h1>We truly hope you enjoy your stay</h1>
+    <h1>Welcome to the Sunrise Sanctuary</h1>
         <br/>
     <br/>
     <br/>
@@ -35,11 +35,11 @@
 </template>
 
 <script>
-import Location from '../atoms/Location.vue';
+import Location from '../molecules/Location.vue';
 import PageNavigation from '../atoms/PageNavigation.vue';
-import Recommendations from '../atoms/Recommendations.vue';
-import Rules from '../atoms/Rules.vue';
-import Space from '../atoms/Space.vue';
+import Recommendations from '../molecules/Recommendations.vue';
+import Rules from '../molecules/Rules.vue';
+import Space from '../molecules/Space.vue';
 
 export default {
   components: { PageNavigation, Space, Location, Recommendations, Rules },
@@ -53,5 +53,38 @@ export default {
 
 .guestbook-content {
   position: relative
+}
+
+.guestbook-descriptor {
+  margin-top: 5px;
+  padding-top: 0px;
+  color: rgba(34, 34, 34, 0.75);
+  letter-spacing: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #222;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.guestbook-header {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #222;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: -0.5px;
+  text-transform: none;
 }
 </style>

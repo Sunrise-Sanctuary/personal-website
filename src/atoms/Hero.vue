@@ -25,10 +25,6 @@ export default {
 </script>
 <style>
 
-.test {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 .header-container {
     padding-top: 110px;
     /* padding-bottom: 500px; */
@@ -59,10 +55,6 @@ export default {
 };
 </script>
 <style>
-
-.test {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 .header-container {
     padding-top: 110px;

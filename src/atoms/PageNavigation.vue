@@ -1,7 +1,7 @@
 <template>
   <div class="nav-wrapper">
     <b-navbar class="guestbook-nav navbar mx-auto" sticky>
-      <b-navbar-nav class="navbar-center">
+      <b-navbar-nav class="mx-auto navbar-center">
         <b-nav-item :exact-active-class="active" href="#space">Space</b-nav-item>
         <b-nav-item :exact-active-class="active" href="#location">Location</b-nav-item>
         <b-nav-item :exact-active-class="active" href="#recommendations">Recommendations</b-nav-item>
@@ -28,14 +28,10 @@ export default {
   }
   .nav-wrapper {
     position: sticky;
-    display: flex;
     width: 100%;
     top: 0;
     overflow: hidden;
-    width: 107%;
-    margin-top: -50px;
-    margin-right: -50px;
-    margin-left: -50px;
+    width: 100%;
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: center;
