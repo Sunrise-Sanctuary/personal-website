@@ -24,4 +24,8 @@ html, body {
     scroll-behavior: smooth;
 }
 
+#app {
+  padding: 0;
+}
+
 </style>
