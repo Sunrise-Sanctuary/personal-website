@@ -16,6 +16,9 @@
       <b-container>
         <page-navigation/>
         <space class="guestbook-section" id="space"/>
+        <div class="email-label">
+          <h4>Interested in booking? Email us at thesunrisesanctuary@gmail.com.</h4>
+        </div>
         <location class="guestbook-section" id="location"/>
         <recommendations class="guestbook-section" id="recommendations"/>
         <rules class="guestbook-section" id="rules"/>
@@ -82,5 +85,9 @@ export default {
   color: #222;
   font-size: 16px;
   line-height: 20px;
+}
+
+.email-label {
+  margin: 150px 0;
 }
 </style>
