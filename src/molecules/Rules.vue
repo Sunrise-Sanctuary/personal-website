@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Please follow our rules</h1>
-    <p>There are a few rules you need to follow</p>
+    <p class="guestbook-descriptor">Coming Soon</p>
         <br/>
     <br/>
     <br/>

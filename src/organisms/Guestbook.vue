@@ -15,10 +15,10 @@
       <location-hero/>
       <b-container>
         <page-navigation/>
-        <space id="space"/>
-        <location id="location"/>
-        <recommendations id="recommendations"/>
-        <rules id="rules"/>
+        <space class="guestbook-section" id="space"/>
+        <location class="guestbook-section" id="location"/>
+        <recommendations class="guestbook-section" id="recommendations"/>
+        <rules class="guestbook-section" id="rules"/>
       </b-container>
     </div>
   </div>
@@ -40,6 +40,10 @@ export default {
 <style>
 .guestbook-content {
   position: relative
+}
+
+.guestbook-section {
+  margin: 50px 0;
 }
 
 .guestbook-descriptor {

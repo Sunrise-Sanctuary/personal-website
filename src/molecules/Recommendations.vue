@@ -1,12 +1,10 @@
 <template>
   <div>
     <p class="guestbook-header">We hope you enjoy your stay at the Sunrise Sanctuary.</p>
-    <p class="guestbook-descriptor">
-      We thought we would share with you our absolute favorite places to eat, enjoy a cup of coffee, do a fun activity or explore!
-    </p>
-    <div class="location-guide-title-restaurants">
+    <p class="guestbook-descriptor">Coming Soon</p>
+    <!-- <div class="location-guide-title-restaurants">
       <h2 class="guide-header">Best Restaurants and Bars</h2>
-    </div>
+    </div> -->
   </div>
 </template>
 
