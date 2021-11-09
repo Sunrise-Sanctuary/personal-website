@@ -1,13 +1,10 @@
 <template>
-  <div>
-    <p class="guestbook-header">The Neighborhood</p>
-    <p class="guestbook-descriptor">Coming Soon</p>
-    <!-- <p class="guestbook-descriptor">Pacific Heights is best known for it's French Chateau and Spanish-style houses
-      - it's picture perfect as far as neighborhoods go. You'll be within walking distance of 2 local parks, 
-      and just a short walk from Fillmore Street and Cow Hollow. Fillmore Street has plenty of supermarkets, 
-      restaurants and bars, whereas you can get your coffee fix whilst shopping boutique stores on Union Street.
-    </p> -->
-    <!-- <offset-image-gallery/> -->
+  <div class="section-start">
+    <h1 class="guestbook-header">Welcome to Delray Beach.</h1>
+    <h2 class="guestbook-descriptor">Our community is right on top of the intercoastal and only a short drive to the beach!</h2>
+    <a target="_blank" href="https://guides.apple.com/?ug=ChAzMjE4IFBhbG0gR3Vlc3RzEg0Irk0Qgpa6zZK7m5hpEg0Irk0Qpa6Dye791KYxEg0Irk0QldfC%2B6Sa37FiEmEaNDMyMTggUGFsbSBEciwgRGVscmF5IEJlYWNoLCBGTCAgMzM0ODMsIFVuaXRlZCBTdGF0ZXMiEglITWDf8346QBFeq%2FNe6wNUwCoVVGhlIFN1bnJpc2UgU2FuY3R1YXJ5Eg4Irk0QhNmUr9vFr4fiAQ%3D%3D">
+      <img height="800px" src="../assets/map.png"/>
+    </a>
   </div>
 </template>
 
@@ -16,9 +13,6 @@
 
 export default {
   name: 'Location',
-  components: {
-    // OffsetImageGallery
-  },
   data() {
     return {}
   }
@@ -26,5 +20,9 @@ export default {
 </script>
 
 <style>
-
+  .recommendation-cards {
+    padding-top: 55px;
+    width: 55rem;
+    margin: auto;
+  }
 </style>

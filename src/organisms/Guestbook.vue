@@ -15,13 +15,15 @@
       <location-hero/>
       <b-container>
         <page-navigation/>
-        <space class="guestbook-section" id="space"/>
-        <div class="email-label">
-          <h4>Interested in booking? Email us at thesunrisesanctuary@gmail.com.</h4>
-        </div>
+        <!-- <space class="guestbook-section" id="space"/> -->
         <location class="guestbook-section" id="location"/>
         <recommendations class="guestbook-section" id="recommendations"/>
         <rules class="guestbook-section" id="rules"/>
+        <div class="email-label" id="contact-us">
+          <h3>Want to get in touch?</h3>
+          <h5>Email us at thesunrisesanctuary@gmail.com</h5>
+          <h5>Or text us at 561-877-3219</h5>
+        </div>
       </b-container>
     </div>
   </div>
@@ -32,11 +34,11 @@ import Location from '../molecules/Location.vue';
 import PageNavigation from '../atoms/PageNavigation.vue';
 import Recommendations from '../molecules/Recommendations.vue';
 import Rules from '../molecules/Rules.vue';
-import Space from '../molecules/Space.vue';
+// import Space from '../molecules/Space.vue';
 import LocationHero from '../atoms/LocationHero.vue';
 
 export default {
-  components: { PageNavigation, Space, Location, Recommendations, Rules, LocationHero },
+  components: { PageNavigation, Location, Recommendations, Rules, LocationHero },
 }
 </script>
 
@@ -46,7 +48,7 @@ export default {
 }
 
 .guestbook-section {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
 .guestbook-descriptor {
@@ -88,6 +90,10 @@ export default {
 }
 
 .email-label {
-  margin: 150px 0;
+  padding-bottom: 15px;
+}
+
+.section-start {
+  padding-top: 85px;
 }
 </style>

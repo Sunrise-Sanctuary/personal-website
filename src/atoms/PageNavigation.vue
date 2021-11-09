@@ -2,7 +2,7 @@
   <div class="nav-wrapper">
     <b-navbar class="guestbook-nav navbar mx-auto" sticky>
       <b-navbar-nav class="mx-auto navbar-center">
-        <b-nav-item :exact-active-class="active" href="#space">Space</b-nav-item>
+        <!-- <b-nav-item :exact-active-class="active" href="#space">Space</b-nav-item> -->
         <b-nav-item :exact-active-class="active" href="#location">Location</b-nav-item>
         <b-nav-item :exact-active-class="active" href="#recommendations">Recommendations</b-nav-item>
         <b-nav-item :exact-active-class="active" href="#rules">Rules</b-nav-item>
@@ -35,6 +35,7 @@ export default {
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: center;
+    z-index: 2;
     .nav-item {
       padding: 0 25px;
       font-size: 22px;

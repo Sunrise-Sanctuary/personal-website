@@ -1,10 +1,11 @@
 <template>
   <div class="space-section">
-    <h1 class="guestbook-header">Our pink dream house, right by the ocean and nightlife.</h1>
+    <h1 class="guestbook-header">Our dream vacation house, right by the ocean and nightlife.</h1>
+    <h1 class="guestbook-descriptor">3218 Palm Drive, Delray Beach</h1>
     <div class="features">
-      <p class="space-feature">Private 1-Bedroom Apartment</p>
+      <p class="space-feature">Beach Cottage</p>
       <p class="black-point faded">•</p>
-      <p class="space-feature">Public Pool And Resort Area</p>
+      <p class="space-feature">Pool, Turf And Resort Area</p>
     </div>
   </div>
 </template>

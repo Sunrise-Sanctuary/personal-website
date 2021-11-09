@@ -19,7 +19,6 @@ export default {
 <style>
 html, body {
     color: #434242;
-    /* font-family: 'Open Sans', sans-serif !important; */
     height: 100%;
     scroll-behavior: smooth;
 }
